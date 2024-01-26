@@ -55,6 +55,11 @@ const validateUser = (object) => {
   return userSchema.safeParse(object);
 };
 
+const partialValidateUser = (object) => {
+  return userSchema.partial().safeParse(object);
+};
+
 module.exports = {
   validateUser,
+  partialValidateUser,
 };

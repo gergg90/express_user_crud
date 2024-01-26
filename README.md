@@ -29,8 +29,6 @@ Una vez instalado, podemos agregar el siguiente script en nuestro archivo packag
 
 ## Endpoints
 
-### Listas No Ordenadas
-
 - **GET** `/users`: Obtiene todos los usuarios.
 - **GET** `/users/:id`: Obtiene un usuario por su ID.
 - **POST** `/users`: Crea un nuevo usuario.

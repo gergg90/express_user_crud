@@ -25,16 +25,16 @@ const passwordSchema = zod
   .refine((value) => {
     if (!/(?=.*[a-z])/.test(value)) {
       throw new Error(
-        'El campo "password" debe contener al menos una minúscula'
+        'The "password" field must contain at least one lowercase letter'
       );
     }
     if (!/(?=.*[A-Z])/.test(value)) {
       throw new Error(
-        'El campo "password" debe contener al menos una mayúscula'
+        'The "password" field must contain at least one capital letter'
       );
     }
     if (!/(?=.*\d)/.test(value)) {
-      throw new Error('El campo "password" debe contener al menos un número');
+      throw new Error('The "password" field must contain at least one number');
     }
 
     return true;

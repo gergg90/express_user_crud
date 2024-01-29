@@ -3,7 +3,7 @@ const users = require("./users.json");
 const cors = require("cors");
 const { validateUser, partialValidateUser } = require("./schema/userSchema");
 
-const PORT = 4321;
+const PORT = process.env.PORT ?? 4321;
 
 const app = express();
 app.use(express.json());

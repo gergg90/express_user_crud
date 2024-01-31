@@ -1,7 +1,3 @@
-
-## Deploy  app.fl0
-Api desplegada en servicio gratuito [app.fl0](https://express-user-crud-dev-gpgz.2.us-1.fl0.io/users)
-
 ![](https://www.sohamkamani.com/nodejs/expressjs-architecture/express-routing-logo.png)
 
 # CRUD con Express
